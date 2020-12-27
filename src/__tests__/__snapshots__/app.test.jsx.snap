@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test snapshot 1`] = `
+<div
+  class="AppGrid-root-1"
+>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-10"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom MuiTypography-alignCenter"
+      >
+        ZlibPump
+      </h6>
+      <h6
+        class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom MuiTypography-alignCenter"
+      >
+        Inflate and deflate strings with zlib
+      </h6>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <div
+        class="InflateBox-root-141"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-8"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation1 InflateBox-paper-142 MuiPaper-rounded"
+            >
+              <div
+                data-testid="form-div"
+              >
+                <form
+                  class="Form-form-177"
+                >
+                  <div
+                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  >
+                    <label
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                      data-shrink="false"
+                      for="deflatedHex"
+                      id="deflatedHex-label"
+                    >
+                      Deflated Hex
+                    </label>
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+                    >
+                      <textarea
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        id="deflatedHex"
+                        rows="1"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); width: 100%;"
+                        tabindex="-1"
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
+                        style="padding-left: 8px;"
+                      >
+                        <legend
+                          class="PrivateNotchedOutline-legend-243"
+                          style="width: 0.01px;"
+                        >
+                          <span>
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    
+                  </div>
+                  <div
+                    class="Form-centering-178"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained Form-button-179"
+                      data-testid="button-deflatedHex"
+                      tabindex="0"
+                      type="submit"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        Inflate
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation1 InflateBox-paper-142 MuiPaper-rounded"
+            >
+              <div
+                data-testid="form-div"
+              >
+                <form
+                  class="Form-form-177"
+                >
+                  <div
+                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  >
+                    <label
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                      data-shrink="false"
+                      for="deflatedBase64"
+                      id="deflatedBase64-label"
+                    >
+                      Deflated base64
+                    </label>
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+                    >
+                      <textarea
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        id="deflatedBase64"
+                        rows="1"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); width: 100%;"
+                        tabindex="-1"
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
+                        style="padding-left: 8px;"
+                      >
+                        <legend
+                          class="PrivateNotchedOutline-legend-243"
+                          style="width: 0.01px;"
+                        >
+                          <span>
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    
+                  </div>
+                  <div
+                    class="Form-centering-178"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained Form-button-179"
+                      data-testid="button-deflatedBase64"
+                      tabindex="0"
+                      type="submit"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        Inflate
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <div
+        class="DeflateBox-root-275"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-8"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation1 DeflateBox-paper-276 MuiPaper-rounded"
+            >
+              <div
+                data-testid="form-div"
+              >
+                <form
+                  class="Form-form-177"
+                >
+                  <div
+                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  >
+                    <label
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                      data-shrink="false"
+                      for="inflatedAscii"
+                      id="inflatedAscii-label"
+                    >
+                      Inflated ASCII
+                    </label>
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+                    >
+                      <textarea
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        id="inflatedAscii"
+                        rows="1"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); width: 100%;"
+                        tabindex="-1"
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
+                        style="padding-left: 8px;"
+                      >
+                        <legend
+                          class="PrivateNotchedOutline-legend-243"
+                          style="width: 0.01px;"
+                        >
+                          <span>
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    
+                  </div>
+                  <div
+                    class="Form-centering-178"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained Form-button-179"
+                      data-testid="button-inflatedAscii"
+                      tabindex="0"
+                      type="submit"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        Deflate
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation1 DeflateBox-paper-276 MuiPaper-rounded"
+            >
+              <div
+                data-testid="form-div"
+              >
+                <form
+                  class="Form-form-177"
+                >
+                  <div
+                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  >
+                    <label
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                      data-shrink="false"
+                      for="inflatedHex"
+                      id="inflatedHex-label"
+                    >
+                      Inflated Hex
+                    </label>
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+                    >
+                      <textarea
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        id="inflatedHex"
+                        rows="1"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); width: 100%;"
+                        tabindex="-1"
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
+                        style="padding-left: 8px;"
+                      >
+                        <legend
+                          class="PrivateNotchedOutline-legend-243"
+                          style="width: 0.01px;"
+                        >
+                          <span>
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    
+                  </div>
+                  <div
+                    class="Form-centering-178"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained Form-button-179"
+                      data-testid="button-inflatedHex"
+                      tabindex="0"
+                      type="submit"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        Deflate
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h6
+    class="MuiTypography-root AppGrid-footer-6 MuiTypography-subtitle2 MuiTypography-gutterBottom MuiTypography-alignCenter"
+  >
+    <a
+      href="https://twitter.com/jamomani"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      By @jamomani
+    </a>
+  </h6>
+</div>
+`;
