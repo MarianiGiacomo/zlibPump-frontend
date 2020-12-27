@@ -2,16 +2,11 @@
 * This is an example. Fill in your configuration and change the file name into firebase.js
 */
 
-const firebase = require('firebase');
-require('firebase/functions');
+import firebase from 'firebase'
 
 const config = {
-  apiKey: 'YOUR-API-KEY',
-  authDomain: 'YOUR-FIREBASE-DOMAIN',
-  databaseURL: 'YOUR-DATABASE-URL',
-  projectId: 'YOUR-PROJECT-ID',
-  storageBucket: 'YOUR-STORAGE-BUCKET',
-  messagingSenderId: 'YOUR-MESSAGING-SENDER-ID',
+  apiKey: '<API_KEY>',
+  projectId: '<PROJECT_ID>',
 };
 firebase.initializeApp(config);
 
