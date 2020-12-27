@@ -11,6 +11,7 @@ import InflateBox from './InflateBox';
 import DeflateBox from './DeflateBox';
 import { actionSetModal } from '../../actions';
 import { styles, proptTypesClasses } from '../../styles';
+import logo from '../../assets/images/logo.png'
 
 function AppGrid(props) {
   const { classes, modal, setModal } = props;
@@ -24,7 +25,7 @@ function AppGrid(props) {
         <Grid item xs={12}>
           <Typography variant="h4" align="center" gutterBottom>ZlibPump</Typography>
           <div style={{ textAlign: 'center'}}>
-            <img src="/src/img/favicon.png" />
+            <img src={ logo } />
           </div>
           <Typography variant="h5" align="center" gutterBottom>Inflate and deflate strings with zlib</Typography>
         </Grid>
