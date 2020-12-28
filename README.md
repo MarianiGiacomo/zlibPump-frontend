@@ -20,3 +20,17 @@ Copy the `/favicon.png` file to `/dist/`
 SOURCE_SITE = projectId
 
 TARGET_SITE = projectId
+
+## Using githooks
+To automatically build and test with firebase emulator upon commit. Create the script `.git/hooks/post-commit` and make it executable. Here is an example of the script content:
+```
+#!/bin/sh
+echo "Running build"
+npm run build
+if ps | grep emulator | grep -v grep; then
+    echo "Found emulator process, not starting a new one."
+else
+    echo "Did not find an emulator process. Starting up"
+    firebase emulators:start
+fi
+```
