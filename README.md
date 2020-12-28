@@ -8,12 +8,13 @@ Copy the `/favicon.png` file to `/dist/`
 `npm start`
 
 ## Test locally with firebase
+`npm run build`
 `firebase emulators:start`
 
-## Deploy to test channel
+### Then deploy to test channel
 `firebase hosting:channel:deploy SOURCE_CHANNEL_ID`
 
-## Deploy to production
+### Finally deploy to production
 `firebase hosting:clone SOURCE_SITE:SOURCE_CHANNEL_ID TARGET_SITE:live`
 
 SOURCE_SITE = project id
