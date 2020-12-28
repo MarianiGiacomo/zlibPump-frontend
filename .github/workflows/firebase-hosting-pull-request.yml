@@ -19,6 +19,7 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ZLIBPUMP }}'
+          channelId: snowy-christmas
           projectId: zlibpump
         env:
           FIREBASE_ZLIBPUMP_APIKEY: '${{ secrets.FIREBASE_ZLIBPUMP_APIKEY }}'
