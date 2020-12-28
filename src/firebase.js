@@ -1,6 +1,7 @@
 import firebase from 'firebase'
 
-console.log('INOUT_APIKEY', process.env.INPUT_FIREBASE_ZLIBPUMP_APIKEY);
+console.log('INPUT_APIKEY', process.env.INPUT_FIREBASE_ZLIBPUMP_APIKEY);
+console.log('INOUT_PROJECTID', process.env.INPUT_PROCESS_ID);
 console.log('APIKEY', process.env.FIREBASE_ZLIBPUMP_APIKEY);
 console.log('PROJECTID', process.env.FIREBASE_PROJECT_ID);
 console.log('channels', process.env.FIREBASE_CLI_PREVIEWS)
