@@ -8,6 +8,8 @@ name: Deploy to Firebase Hosting on merge
       - production
 jobs:
   build_and_deploy:
+    env:
+      FIREBASE_ZLIBPUMP_APIKEY: '${{ secrets.FIREBASE_ZLIBPUMP_APIKEY }}'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,6 +21,4 @@ jobs:
           channelId: live
           projectId: zlibpump
         env:
-          FIREBASE_ZLIBPUMP_APIKEY: '${{ secrets.FIREBASE_ZLIBPUMP_APIKEY }}'
-          FIREBASE_PROJECT_ID: '${{ secrets.FIREBASE_PROJECT_ID }}'
           FIREBASE_CLI_PREVIEWS: hostingchannels
