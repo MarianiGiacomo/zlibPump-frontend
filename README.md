@@ -17,6 +17,6 @@ Copy the `/favicon.png` file to `/dist/`
 ### Finally deploy to production
 `firebase hosting:clone SOURCE_SITE:SOURCE_CHANNEL_ID TARGET_SITE:live`
 
-SOURCE_SITE = project id
+SOURCE_SITE = projectId
 
-TARGET_SITE = project id
+TARGET_SITE = projectId
