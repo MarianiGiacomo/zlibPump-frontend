@@ -2,7 +2,7 @@ import firebase from 'firebase'
 
 const config = {
   apiKey: process.env.FIREBASE_ZLIBPUMP_APIKEY,
-  projectId: priocess.env.FIREBASE_PROJECT_ID,
+  projectId: process.env.FIREBASE_PROJECT_ID,
 };
 firebase.initializeApp(config);
 
