@@ -1,6 +1,8 @@
 Install firebase hosting and emulators with `firebase init`
 
-Create a `/src/firebase.js` file and add `apiKey` and `projectId` (See `/src/firebase-example.js`)
+Create a `.env` file in the root folder and add the `FIREBASE_ZLIBPUMP_APIKEY=<API_KEY>`.
+
+Create a `/src/firebase.js` file and add `apiKey` from `process.env.FIREBASE_ZLIBPUMP_APIKEY` and `projectId` (See `/src/firebase-example.js`).
 
 Copy the `/favicon.png` file to `/dist/`
 

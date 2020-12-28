@@ -5,7 +5,7 @@
 import firebase from 'firebase'
 
 const config = {
-  apiKey: '<API_KEY>',
+  apiKey: process.env.FIREBASE_ZLIBPUMP_APIKEY,
   projectId: '<PROJECT_ID>',
 };
 firebase.initializeApp(config);
