@@ -12,7 +12,7 @@ name: Deploy to Firebase Hosting preview channels on PR and merge
 jobs:
   build_and_preview:
     env:
-      TEST: 'test'
+      FIREBASE_ZLIBPUMP_APIKEY: '${{ secrets.FIREBASE_ZLIBPUMP_APIKEY }}'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -26,9 +26,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ZLIBPUMP }}'
           channelId: snowy-christmas
           projectId: zlibpump
-          test: 'test'
-          firebase_zlibpump_apikey: '${{ secrets.FIREBASE_ZLIBPUMP_APIKEY }}'
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
-          PROJECTID: zlibpump
-          FIREBASE_PROJECT_ID: zlibpump
