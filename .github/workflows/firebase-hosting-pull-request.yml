@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm ci && npm run build
+      - run: npm install && npm run build && echo "FIREBASE_ZLIBPUMP_APIKEY=${{ secrets.FIREBASE_ZLIBPUMP_APIKEY }}" > .env
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
