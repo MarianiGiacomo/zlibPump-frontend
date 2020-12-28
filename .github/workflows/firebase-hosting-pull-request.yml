@@ -24,4 +24,4 @@ jobs:
           firebase_zlibpump_apikey: '${{ secrets.FIREBASE_ZLIBPUMP_APIKEY }}'
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
-          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          PROJECTID: zlibpump
