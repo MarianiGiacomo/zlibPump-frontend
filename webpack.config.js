@@ -1,5 +1,6 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   module: {
@@ -35,6 +36,12 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
     }),
-    new Dotenv({ systemvars: true })
+    new Dotenv({ systemvars: true }),
+    new CopyPlugin({
+          patterns: [
+            { from: "favicon.png", to: "favicon.png" },
+            { from: "zlibPump.jpg", to: "zlibPump.jpg" }
+          ],
+        })
   ],
 };
