@@ -14,6 +14,11 @@ export const styles = () => ({
     marginRight: theme.spacing(),
     marginLeft: theme.spacing(),
   },
+  header: {
+    textAlign: 'center',
+    color: '#e0e0e0',
+    fontFamily: 'Roboto, Helvetica, Arial, sans-serif'
+  },
   paper: {
     padding: theme.spacing(2),
     color: theme.palette.text.secondary,
@@ -31,6 +36,7 @@ export const styles = () => ({
   },
   footer: {
     margin: theme.spacing(2),
+    textAlign: 'center'
   },
   modal: {
     height: '30%',

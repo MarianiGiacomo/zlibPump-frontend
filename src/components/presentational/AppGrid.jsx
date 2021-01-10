@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
 import InflateBox from './InflateBox';
 import DeflateBox from './DeflateBox';
+import Footer from './Footer';
 import { actionSetModal } from '../../actions';
 import { styles, proptTypesClasses } from '../../styles';
 import logo from '../../assets/images/logo.png'
@@ -23,11 +24,11 @@ function AppGrid(props) {
     <div className={classes.root}>
       <Grid container spacing={10}>
         <Grid item xs={12}>
-          <Typography variant="h4" align="center" gutterBottom>ZlibPump</Typography>
-          <div style={{ textAlign: 'center'}}>
+        <div className={classes.header}>
+          <h1 className={classes.header}>Inflate and deflate zlib strings</h1>
             <img src={ logo } />
-          </div>
-          <Typography variant="h5" align="center" gutterBottom>Inflate and deflate strings with zlib</Typography>
+          <h2 className={classes.header}>Inflate and deflate <a href="https://www.zlib.net/">zlib</a> strings, convert them to base64 hex and ASCII</h2>
+        </div>
         </Grid>
         <Grid item xs={12} sm={6}>
           <InflateBox />
@@ -36,12 +37,11 @@ function AppGrid(props) {
           <DeflateBox />
         </Grid>
       </Grid>
-      <Typography variant="subtitle2" align="center" className={classes.footer} gutterBottom><a target="_blank" rel="noreferrer noopener" href="https://twitter.com/jamomani">By @jamomani</a></Typography>
+      <Footer/>
       <Modal
         data-testid="modal"
         open={modal.open}
-        onClose={handleClose}
-      >
+        onClose={handleClose}>
         <Paper className={classes.modal}>
           <p>{modal.message}</p>
           <Button data-testid="button-modal" variant="contained" className={classes.button} onClick={handleClose}>Close</Button>
