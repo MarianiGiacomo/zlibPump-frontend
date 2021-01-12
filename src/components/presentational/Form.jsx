@@ -5,7 +5,6 @@ import TextField from '@material-ui/core/TextField';
 import { connect } from 'react-redux';
 import Button from '@material-ui/core/Button';
 import { actionSetTextBoxesValues, actionChangeValue, actionSetModal } from '../../actions';
-import functions from '../../firebase'; // REMEMBER TO FILL IN YOUR API VALUES
 import { styles, proptTypesClasses } from '../../styles';
 
 class Form extends Component {

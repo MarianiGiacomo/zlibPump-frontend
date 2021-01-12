@@ -27,7 +27,7 @@ function AppGrid(props) {
         <div className={classes.header}>
           <h1 className={classes.header}>Inflate and deflate zlib strings</h1>
             <img src={ logo } />
-          <h2 className={classes.header}>Inflate and deflate <a href="https://www.zlib.net/">zlib</a> strings, convert them to base64 hex and ASCII</h2>
+          <h2 className={classes.header} id="about">Inflate and deflate <a href="https://www.zlib.net/">zlib</a> strings, convert them to base64 hex and ASCII</h2>
         </div>
         </Grid>
         <Grid item xs={12} sm={6}>

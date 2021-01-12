@@ -1,12 +1,5 @@
 Install firebase hosting and emulators with `firebase init`
 
-Create a `.env` file in the root folder and add:
-- `FIREBASE_ZLIBPUMP_APIKEY=<API_KEY>`
-- `FIREBASE_PROJECT_ID=<PROJECT_ID`
-
-
-Copy the `/favicon.png` file to `/dist/`
-
 ## Test locally with npm
 `npm start`
 
