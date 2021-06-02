@@ -5,7 +5,6 @@ import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import { connect } from 'react-redux';
-import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
 import InflateBox from './InflateBox';
 import DeflateBox from './DeflateBox';
@@ -25,9 +24,9 @@ function AppGrid(props) {
       <Grid container spacing={10}>
         <Grid item xs={12}>
         <div className={classes.header}>
-          <h1 className={classes.header}>Inflate and deflate zlib strings</h1>
-            <img src={ logo } />
-          <h2 className={classes.header} id="about">Inflate and deflate <a href="https://www.zlib.net/">zlib</a> strings, convert them to base64 hex and ASCII</h2>
+          <h1 className={classes.header}>Inflate and deflate z-lib strings</h1>
+            <img src={ logo } aria-hidden="true"/>
+          <h2 className={classes.header} id="about">Inflate and deflate <a href="https://www.zlib.net/">z-lib</a> strings, convert them to base64 hex and ASCII</h2>
         </div>
         </Grid>
         <Grid item xs={12} sm={6}>
