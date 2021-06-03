@@ -16,7 +16,7 @@ export const styles = () => ({
   },
   header: {
     textAlign: 'center',
-    color: '#e0e0e0',
+    color: '#555151',
     fontFamily: 'Roboto, Helvetica, Arial, sans-serif'
   },
   paper: {
