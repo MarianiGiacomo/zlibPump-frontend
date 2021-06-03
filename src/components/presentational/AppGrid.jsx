@@ -21,22 +21,26 @@ function AppGrid(props) {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={10}>
-        <Grid item xs={12}>
-        <div className={classes.header}>
-          <h1 className={classes.header}>Inflate and deflate z-lib strings</h1>
-            <img src={ logo } aria-hidden="true"/>
-          <h2 className={classes.header} id="about">Inflate and deflate <a href="https://www.zlib.net/">z-lib</a> strings, convert them to base64 hex and ASCII</h2>
-        </div>
+      <main role="main">
+        <Grid container spacing={10}>
+          <Grid item xs={12}>
+          <header className={classes.header}>
+            <h1 className={classes.header}>Inflate and deflate z-lib strings</h1>
+              <img src={ logo } aria-hidden="true"/>
+            <h2 className={classes.header} id="about">Inflate and deflate <a href="https://www.zlib.net/">z-lib</a> strings, convert them to base64 hex and ASCII</h2>
+          </header>
+          </Grid>
+            <Grid item xs={12} sm={6}>
+              <InflateBox />
+            </Grid>
+            <Grid item xs={12} sm={6}>
+              <DeflateBox />
+            </Grid>
         </Grid>
-        <Grid item xs={12} sm={6}>
-          <InflateBox />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <DeflateBox />
-        </Grid>
-      </Grid>
-      <Footer/>
+      </main>
+      <footer>
+        <Footer/>
+      </footer>
       <Modal
         data-testid="modal"
         open={modal.open}
